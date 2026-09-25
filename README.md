@@ -8,7 +8,7 @@
 [![Algorithms](https://img.shields.io/badge/Algorithms-A*%20%7C%20GBFS%20%7C%20BFS%20%7C%20DFS%20%7C%20Bidirectional-059669.svg)](https://github.com/AbdulRehmanRattu)
 [![Status: Production Ready](https://img.shields.io/badge/Status-Production%20Ready-brightgreen.svg)](https://github.com/AbdulRehmanRattu)
 
-**An enterprise-grade, high-performance pathfinding and spatial search laboratory built and maintained by Abdul Rehman Rattu.**
+**Interactive pathfinding simulation and benchmark suite comparing informed and uniform-cost search algorithms.**
 
 [Overview](#overview) • [System Architecture](#system-architecture) • [Algorithms & Formulations](#algorithms--mathematical-formulations) • [Empirical Benchmarks](#empirical-benchmark-results) • [Desktop GUI](#interactive-desktop-simulator) • [Technical Report](#technical-research-report) • [Installation & Usage](#installation--usage) • [Author](#author--maintainer)
 
@@ -20,7 +20,7 @@
 
 Autonomous mobile robots operating in automated warehouses, discrete manufacturing environments, and planetary rover surfaces require deterministic, computationally bounded, and mathematically optimal navigation algorithms. Guiding a robotic agent through a discrete two-dimensional occupancy manifold involves evading non-convex obstacle fields while minimizing cumulative step latency and expanded graph states.
 
-The **Autonomous Robot Grid Navigation & Heuristic Search Suite** is a publication-grade, production-tested pathfinding framework. It implements six discrete graph traversal strategies across uniform cost and informed heuristic paradigms:
+The **Autonomous Robot Grid Navigation & Heuristic Search Suite** is an open-source pathfinding framework and benchmarking tool for discrete grid environments. It implements six discrete graph traversal strategies across uniform cost and informed heuristic paradigms:
 1. **Breadth-First Search (BFS)** (FIFO Queue; guarantees shortest path in unweighted spatial graphs).
 2. **Depth-First Search (DFS)** (LIFO Stack; memory-efficient deep branch exploration).
 3. **Greedy Best-First Search (GBFS)** (Priority Queue driven purely by heuristic distance $h(n)$).
